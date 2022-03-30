@@ -31,7 +31,7 @@ template<> float ComplexNumber<float>::GetArgument() {
 }
 
 template<> void ComplexNumber<float>::Print() {
-    prfloatf("%d + %di\n", real, imaginary);
+    printf("%f + %fi\n", real, imaginary);
 }
 
 // getters and setters
